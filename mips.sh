@@ -1,3 +1,6 @@
+git reset --hard
+git clean -fdx
+
 if [[ "$PATH" != *"/usr/local/mips-2012.09/bin"* ]]; then
 	export PATH="/usr/local/mips-2012.09/bin:$PATH"
 fi
